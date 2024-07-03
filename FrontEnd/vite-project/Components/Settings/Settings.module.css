@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    min-width: 18vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding-top: 5vh;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2vw;
+    cursor: pointer;
+}
+
+.separator {
+    border-color: #fbfbfb;
+    width: 1px;
+}
+
+.prologo,
+.settings,
+.board,
+.analytics,
+.logout {
+    width: 5vw;
+    height: 4vh;
+}
+
+.flexboard {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(106, 175, 254, 0.577);
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    padding-left: 2vw;
+}
+
+.settingstext {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.analyticstext,
+.boardtext {
+    color: #707070;
+}
+
+.pro {
+    font-weight: 550;
+    font-size: 3vh;
+}
+
+.log {
+    color: #CF3636;
+}
+
+.flexy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    bottom: 8vh;
+    padding-left: 2.5vw;
+    cursor: pointer;
+}
+
+.right {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 5vh;
+}
+
+.settings {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin-left: 3.5vw;
+    margin-top: 5vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.person {
+    margin-right: -3vw;
+    z-index: 999;
+}
+
+.input {
+    width: 30vw;
+    height: 7vh;
+    padding-left: 3.5vw;
+    padding-top: 0.5vh;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(84, 84, 84);
+    border-radius: 10px;
+    border: 2px solid #D0D0D0;
+}
+
+.input::placeholder {
+    color: #828282;
+}
+
+.mail {
+    margin-right: -3vw;
+    z-index: 999;
+}
+
+.lock {
+    margin-right: -3vw;
+    z-index: 999;
+}
+
+.eye {
+    margin-left: -3.3vw;
+    z-index: 999;
+    width: 3vw;
+    height: 4vh;
+    margin-top: 1.5vh;
+    cursor: pointer;
+}
+
+.update {
+    width: 30vw;
+    height: 7vh;
+    margin-left: -0.5vw;
+    margin-top: 5vh;
+    border-radius: 30px;
+    border: 0px solid #D0D0D0;
+    background-color: #17A2B8;
+    color: white;
+    cursor: pointer;
+}
+
+.logoutoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logoutoverlayContent {
+    background-color: white;
+    width: 24vw;
+    height: 25vh;
+    position: relative;
+    padding-left: 0.5vw;
+    border-radius: 15px;
+    border: solid;
+    border-color: #E2E2E2;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirmlogoutpara {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.confirmlogoutButton {
+    background-color: #17A2B8;
+    color: white;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2.5vh;
+    cursor: pointer;
+}
+
+.confirmcloseButton {
+    border: 1px solid #CF3636;
+    background-color: white;
+    color: #CF3636;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 10px;
+    cursor: pointer;
+}

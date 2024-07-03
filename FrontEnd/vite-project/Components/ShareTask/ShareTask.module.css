@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3vh;
+    padding-left: 3vw;
+    gap: 1vw;
+    align-items: center;
+}
+
+.protext {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.container {
+    width: 48vw;
+    min-height: 30vh;
+    height: auto;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 25vw;
+    box-sizing: border-box;
+    padding-top: 1vh;
+    margin-top: 5vh;
+    border: 0.5px solid #bec2c6;
+    border-radius: 10px;
+    padding-left: 2.5vw;
+    padding-top: 3vh;
+}
+
+.imagecontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    top: 15vh;
+}
+
+.prioritytext {
+    font-weight: 500;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.datatitle {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 1.5vh;
+    margin-bottom: 5vh;
+}
+
+
+.checked {
+    font-size: 15px;
+    margin-bottom: 2vh;
+}
+
+.checklistInputarea {
+    margin-left: -14.5vw;
+    max-height: 45vh;
+    overflow-y: auto;
+    margin-bottom: 2.5vh;
+}
+
+.checklistInput {
+    margin-left: 14.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    overflow-y: auto;
+    align-items: center;
+}
+
+.radioLabel {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(217, 216, 214);
+    padding-left: 1vw;
+    width: 42vw;
+    overflow-x: hidden;
+}
+
+.wanted {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2vw;
+    padding: 6px;
+}
+
+.boxes {
+    width: 1.5vw;
+    height: 3vh;
+}
+
+.inputvalues {
+    font-size: 18px;
+    width: 39vw;
+    min-height: 5.4vh;
+    height: auto;
+    overflow-y: auto;
+    padding-top: 1vh;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+
+}
+
+.datearea {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2vw;
+    margin-bottom: 9vh;
+}
+
+.due {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.actiondate {
+    background-color: #CF3636;
+    width: 4vw;
+    height: 3.5vh;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .body {
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        padding-top: 3vh;
+        margin-left: 5vw;
+        gap: 1vw;
+        align-items: center;
+    }
+
+    .protext {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .container {
+
+        width: 90vw;
+        min-height: 30vh;
+        height: auto;
+        max-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 5vw;
+        box-sizing: border-box;
+        padding-top: 0.5vh;
+        margin-top: 5vh;
+        padding-left: 5vw;
+        border: 0.5px solid #bec2c6;
+        border-radius: 10px;
+    }
+
+    .imagecontainer {
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+        margin-top: 3vh;
+    }
+
+    .prioritytext {
+        font-weight: 500;
+        font-size: 9px;
+        text-transform: uppercase;
+    }
+
+    .datatitle {
+        font-size: 21px;
+        font-weight: 600;
+        margin-top: 1.5vh;
+        margin-bottom: 3.5vh;
+        margin-top: 1vh;
+    }
+
+
+    .checked {
+        font-size: 15px;
+    }
+
+    .checklistInputarea {
+        margin-left: -14.5vw;
+        max-height: 45vh;
+        overflow-y: auto;
+        margin-bottom: 5vh;
+        align-items: center;
+    }
+
+    .checklistInput {
+        margin-left: 15vw;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2vh;
+        overflow-y: auto;
+        align-items: center;
+    }
+
+    .radioLabel {
+        left: 9vw;
+        display: flex;
+        flex-direction: row;
+        gap: 1vw;
+        margin-bottom: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        border: solid;
+        border-radius: 10px;
+        border-color: rgb(217, 216, 214);
+        padding-left: 1vw;
+        min-height: 5vh;
+        height: auto;
+        width: 78vw;
+        align-items: center;
+    }
+
+    .wanted {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 4vw;
+        position: relative;
+        height: auto;
+        min-height: 2vh;
+        max-height: 5vh;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .boxes {
+        width: 4vw;
+        height: 3vh;
+        margin-left: 2vw;
+
+    }
+
+    .inputvalues {
+        font-size: 16px;
+        width: 66vw;
+        min-height: 3.9vh;
+        height: auto;
+        word-break: break-all;
+        overflow-wrap: break-word;
+        white-space: normal;
+        text-overflow: ellipsis;
+        position: absolute;
+        margin-left: 10vw;
+        overflow-y: hidden;
+        margin-top: -0.5vh;
+    }
+
+
+    .datearea {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.2vw;
+        margin-bottom: 9vh;
+    }
+
+    .due {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .actiondate {
+        background-color: #CF3636;
+        width: 15vw;
+        height: 3vh;
+        border-radius: 5px;
+        border: none;
+        text-align: center;
+        color: white;
+        font-size: 12px;
+    }
+
+}

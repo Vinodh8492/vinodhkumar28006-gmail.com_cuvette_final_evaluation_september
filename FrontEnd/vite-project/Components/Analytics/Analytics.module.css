@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.left {
+    min-width: 18vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding-top: 5vh;
+}
+
+.separator {
+    border-color: #fbfbfb;
+    width: 1px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2vw;
+    cursor: pointer;
+}
+
+.prologo,
+.settings,
+.board,
+.analytics,
+.logout {
+    width: 5vw;
+    height: 4vh;
+}
+
+.flexboard {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(106, 175, 254, 0.577);
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    padding-left: 2vw;
+}
+
+.analyticstext {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.boardtext,
+.settingstext {
+    color: #707070;
+}
+
+.pro {
+    font-weight: 550;
+    font-size: 3vh;
+}
+
+.log {
+    color: #CF3636;
+}
+
+.flexy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    bottom: 8vh;
+    padding-left: 2.5vw;
+    cursor: pointer;
+}
+
+.right {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 5vh;
+}
+
+.analytics {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.full {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+}
+
+.half {
+    display: flex;
+    flex-direction: column;
+    background-color: #e4f2ff;
+    width: 30vw;
+    height: 33vh;
+    margin-top: 5vh;
+    gap: 3vh;
+    margin-left: 3vw;
+    border: none;
+    border-radius: 5px;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3vw;
+    gap: 1.5vw;
+    padding-top: 2.5vh;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.number1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 12vw;
+}
+
+.number2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 13.2vw;
+}
+
+.number3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10.4vw;
+}
+
+.number4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10.7vw;
+}
+
+.digit1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 12vw;
+}
+
+.digit2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 9.6vw;
+}
+
+.digit3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 11.95vw;
+}
+
+.digit4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10.75vw;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.overlayContent {
+    background-color: white;
+    width: 24vw;
+    height: 25vh;
+    position: relative;
+    padding-left: 0.5vw;
+    border-radius: 15px;
+    border: solid;
+    border-color: #E2E2E2;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirmpara {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.confirmButton {
+    background-color: #17A2B8;
+    color: white;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2.5vh;
+    cursor: pointer;
+}
+
+.closeButton {
+    border: 1px solid #CF3636;
+    background-color: white;
+    color: #CF3636;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50vw;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    background-color: #17A2B8;
+}
+
+.logo {
+    width: 25vw;
+    height: 25vh;
+}
+
+.p1 {
+    font-size: 33px;
+    color: white;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+.p2 {
+    font-size: 20px;
+    color: white;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50vw;
+    gap: 3vh;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 33px;
+    margin-bottom: 5vh;
+}
+
+.mail {
+    margin-right: -3vw;
+    z-index: 999;
+}
+
+.lock {
+    margin-right: -3vw;
+    z-index: 999;
+}
+
+.eye {
+    margin-left: -3.3vw;
+    z-index: 999;
+    width: 3vw;
+    height: 4vh;
+    margin-top: 0.5vh;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.input {
+    width: 30vw;
+    height: 5vh;
+    padding-left: 3.5vw;
+}
+
+.register {
+    width: 60%;
+    height: 5%;
+    background-color: #17A2B8;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 3vh;
+    cursor: pointer;
+}
+
+.para {
+    color: #828282;
+}
+
+.login {
+    width: 60%;
+    height: 5%;
+    color: #17A2B8;
+    background-color: white;
+    border-radius: 20px;
+    border-color: #17A2B8;
+    border-style: solid;
+    cursor: pointer;
+}

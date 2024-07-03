@@ -1,0 +1,64 @@
+.customDropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownButton {
+  background-color: white;
+  color: black;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid rgb(194, 193, 193);
+  cursor: pointer;
+  border-radius: 7px;
+  width: 39vw;
+  margin-left: 2.5vw;
+}
+
+.dropdownContent {
+  display: block;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: 3vw;
+}
+
+.dropdownItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 16px;
+  cursor: pointer;
+  width: 39vw;
+  flex-direction: row;
+  gap: 3.6vw;
+  margin-left: -1vw;
+}
+
+.button {
+  width: 10vw;
+  height: 4vh;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(194, 193, 193);
+  cursor: pointer;
+}
+
+.ellipsecontainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.ellipse {
+  width: 5vw;
+  height: 5vh;
+  position: absolute;
+
+}
+
+.emailPrefix {
+  z-index: 999;
+  padding-left: 1.5vw;
+}
