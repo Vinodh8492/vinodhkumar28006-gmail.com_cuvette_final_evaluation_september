@@ -2,7 +2,7 @@ import React from "react";
 import axios from 'axios';
 
 
-const backendUrl = 'http://localhost:3333/user'
+const backendUrl = 'https://last-backend-dz62.onrender.com/user'
 
 export const registerUser = async ({ email, name, password, confirmpassword }) => {
   try {

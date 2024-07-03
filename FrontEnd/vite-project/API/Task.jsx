@@ -1,7 +1,7 @@
 import React from "react";
 import axios from 'axios'
 
-const backendUrl = 'http://localhost:3333/task'
+const backendUrl = 'https://last-backend-dz62.onrender.com/task'
 
 export const createTask = async (task) => {
   try {

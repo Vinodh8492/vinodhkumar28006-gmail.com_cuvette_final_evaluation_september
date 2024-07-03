@@ -742,7 +742,7 @@ function DashBoard() {
       setTaskData(newChecklist);
 
       const response = await axios.put(
-        `http://localhost:3333/task/update-checklist/${taskId}/${index}`,
+        `https://last-backend-dz62.onrender.com/task/update-checklist/${taskId}/${index}`,
         { checked: item.checked }
       );
       console.log(response.data);
